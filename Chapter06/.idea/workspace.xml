@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9d832df-d482-42ff-a99f-0208c93e7a29" name="Changes" comment="" />
+    <list default="true" id="d9d832df-d482-42ff-a99f-0208c93e7a29" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/exception/connect/ConnectMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/exception/connect/ConnectTimeoutMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/exception/connect/ConnectTimeoutMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/exception/connect/SoTimeoutClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/exception/connect/SoTimeoutServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/tcp/SocketCloseUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/tcp/v3/ClientV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/tcp/v3/ServerV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/tcp/v3/SessionV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/tcp/v4/ClientV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/tcp/v4/ServerV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/tcp/v4/SessionV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/tcp/v5/ClientV5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/tcp/v5/ServerV5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/tcp/v5/SessionV5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/tcp/v6/ClientV6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/tcp/v6/ServerV6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/tcp/v6/SessionManagerV6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/tcp/v6/SessionV6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter07/src/util/MyLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,32 +50,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ClientV2 (1).executor": "Run",
-    "Application.ClientV2.executor": "Run",
-    "Application.InetAddressMain.executor": "Run",
-    "Application.ResourceCloseMainV2.executor": "Run",
-    "Application.ResourceCloseMainV3.executor": "Run",
-    "Application.ResourceCloseMainV4.executor": "Run",
-    "Application.ServerV1.executor": "Run",
-    "Application.ServerV2.executor": "Run",
-    "Application.ServerV3.executor": "Run",
-    "Application.v1.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Github/Network/Chapter05",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/Github/Network/Chapter06/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ClientV2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClientV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InetAddressMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ResourceCloseMainV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ResourceCloseMainV3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ResourceCloseMainV4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ServerV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ServerV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ServerV3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.v1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Github/Network/Chapter06&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Github/Network/Chapter06/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="network.tcp.autocloseable" />
@@ -62,7 +84,7 @@
       <recent name="network.tcp.v1" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ClientV2 (1)">
     <configuration name="ClientV2 (1)" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="network.tcp.v2.ClientV2" />
       <module name="Chapter06" />
@@ -154,6 +176,9 @@
       <updated>1733274048134</updated>
       <workItem from="1733274049219" duration="894000" />
       <workItem from="1733276864960" duration="14096000" />
+      <workItem from="1733361345312" duration="249000" />
+      <workItem from="1733362428562" duration="14000" />
+      <workItem from="1733397724794" duration="598000" />
     </task>
     <servers />
   </component>
