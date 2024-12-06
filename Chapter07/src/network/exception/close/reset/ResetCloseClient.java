@@ -31,20 +31,14 @@ public class ResetCloseClient {
             System.out.println("read = " + read);
 
         }catch (SocketException e){
-            Throwable[] suppressed = e.getSuppressed();
-            for (Throwable throwable : suppressed) {
-                System.out.println("throwable = " + throwable);
-            }
+            System.out.println(e);
             e.printStackTrace();
         }
 
         try {
             output.write(1);
         }catch (SocketException e){
-            Throwable[] suppressed = e.getSuppressed();
-            for (Throwable throwable : suppressed) {
-                System.out.println("throwable = " + throwable);
-            }
+            System.out.println(e);
             e.printStackTrace();
         }
 
