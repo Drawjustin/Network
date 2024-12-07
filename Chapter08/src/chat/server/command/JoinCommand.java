@@ -15,8 +15,8 @@ public class JoinCommand implements Command {
 
     @Override
     public void execute(String[] args, Session session) throws IOException {
-//        if(!Command.validateArgs(args))
-//            return;
+        if(!Command.validateArgs(args))
+            return;
         String username = args[1];
         session.setUsername(username);
         sessionManager.sendAll(username + "님이 입장했습니다");

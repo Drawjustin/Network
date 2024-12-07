@@ -14,8 +14,8 @@ public class UsersCommand implements Command{
     }
     @Override
     public void execute(String[] args, Session session) throws IOException {
-//        if(!Command.validateArgs(args))
-//            return;
+        if(!Command.validateArgs(args))
+            return;
         List<String> usernames = sessionManager.getAllusername();
         StringBuilder sb = new StringBuilder();
         sb.append("전체 접속자 : ").append(usernames.size()).append("\n");

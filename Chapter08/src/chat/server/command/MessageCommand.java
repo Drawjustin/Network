@@ -14,8 +14,8 @@ public class MessageCommand implements Command{
 
     @Override
     public void execute(String[] args, Session session) throws IOException {
-//        if(!Command.validateArgs(args))
-//            return;
+        if(!Command.validateArgs(args))
+            return;
         String message = args[1];
         sessionManager.sendAll("[" + session.getUsername() + "] : " + message);
 

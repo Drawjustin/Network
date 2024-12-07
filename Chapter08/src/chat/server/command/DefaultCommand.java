@@ -8,8 +8,8 @@ import java.util.Arrays;
 public class DefaultCommand implements Command{
     @Override
     public void execute(String[] args, Session session) throws IOException {
-//        if(!Command.validateArgs(args))
-//            return;
+        if(!Command.validateArgs(args))
+            return;
         session.send("처리할 수 없는 명령어 입니다: " + Arrays.toString(args));
     }
 }

@@ -7,8 +7,8 @@ import java.io.IOException;
 public class ExitCommand implements Command{
     @Override
     public void execute(String[] args, Session session) throws IOException {
-//        if(!Command.validateArgs(args))
-//            return;
+        if(!Command.validateArgs(args))
+            return;
         throw new IOException("exit");
     }
 }
