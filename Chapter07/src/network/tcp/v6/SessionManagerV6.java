@@ -14,7 +14,7 @@ public class SessionManagerV6 {
     }
     public synchronized void closeAll(){
         for(SessionV6 session : sessions){
-            session.close();
+            session.cl ose();
         }
         sessions.clear();
     }

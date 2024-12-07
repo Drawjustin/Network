@@ -1,34 +1,30 @@
 package chatprogram.server;
 
-import chatprogram.session.InputSession;
-import chatprogram.session.OutputSession;
+import chatprogram.config.ServerConfig;
+import chatprogram.session.DataStreamHandler;
+import chatprogram.session.Session;
 import chatprogram.session.SessionManager;
+import chatprogram.session.StreamHandler;
 
-import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-import static chatprogram.util.MyLogger.log;
-
 public class Server {
-    private static final int SERVER_PORT = 12345;
-    private static final SessionManager sessionManager = new SessionManager();
+    private static final int SERVER_PORT = ServerConfig.SERVER_PORT;
+    private static final StreamHandler streamHandler = ServerConfig.getStreamHandler();
+    private static final SessionManager sessionManager = ServerConfig.getSessionManager();
+
     public static void main(String[] args) {
         try {
-            ServerSocket serverSocket = new ServerSocket(12345);
-            log("Server Host Open : " + SERVER_PORT);
             while(true) {
+                ServerSocket serverSocket = new ServerSocket(SERVER_PORT);
                 Socket socket = serverSocket.accept();
-                Thread inputSession = new Thread(new InputSession(socket));
-                Thread outputSession = new Thread(new OutputSession(socket));
-                sessionManager.addInputSession(new InputSession(socket));
-                sessionManager.addOutputSession(new OutputSession(socket));
-                inputSession.start();
-                outputSession.start();
+                new Thread(new Session(socket, sessionManager, streamHandler)).start();
             }
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
 
+        }catch (Exception e){
+
+        }
     }
+
 }
