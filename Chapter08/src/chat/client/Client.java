@@ -15,7 +15,6 @@ public class Client {
 
     private final String host;
     private final int port;
-
     private Socket socket;
     private DataInputStream input;
     private DataOutputStream output;
