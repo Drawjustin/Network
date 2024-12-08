@@ -5,27 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9d832df-d482-42ff-a99f-0208c93e7a29" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/exception/connect/ConnectMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/exception/connect/ConnectTimeoutMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/exception/connect/ConnectTimeoutMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/exception/connect/SoTimeoutClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/exception/connect/SoTimeoutServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/tcp/SocketCloseUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/tcp/v3/ClientV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/tcp/v3/ServerV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/tcp/v3/SessionV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/tcp/v4/ClientV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/tcp/v4/ServerV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/tcp/v4/SessionV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/tcp/v5/ClientV5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/tcp/v5/ServerV5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/tcp/v5/SessionV5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/tcp/v6/ClientV6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/tcp/v6/ServerV6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/tcp/v6/SessionManagerV6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chapter07/src/network/tcp/v6/SessionV6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chapter07/src/util/MyLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,6 +159,7 @@
       <workItem from="1733361345312" duration="249000" />
       <workItem from="1733362428562" duration="14000" />
       <workItem from="1733397724794" duration="598000" />
+      <workItem from="1733659617328" duration="10000" />
     </task>
     <servers />
   </component>
